@@ -11,8 +11,7 @@ const str = prompt('Enter a string:');
  */
 let result = "";
 
-let letter = [...str];
-result = letter.join(" ");
+result = str.split(" ");
 
 // DO NOT CHANGE THE LINES BELOW.
 console.log(result);
