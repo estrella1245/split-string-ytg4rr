@@ -9,7 +9,10 @@ const str = prompt('Enter a string:');
  * Create an array of substrings given a delimiter.
  * For example, if str = 'Hello World!' and delimiter = ' ', it should return ['Hello', 'World!']
  */
-let result = undefined;
+let result = "";
+
+let letter = [...str];
+result = letter.join(" ");
 
 // DO NOT CHANGE THE LINES BELOW.
 console.log(result);
